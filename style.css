@@ -1,0 +1,479 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #000000;
+  color: white !important;
+}
+
+/* Scrool */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: none;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(168, 167, 167);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+a {
+  color: white !important;
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgb(145, 144, 144) !important;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: rgb(145, 144, 144) !important;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: rgb(145, 144, 144) !important;
+}
+
+.Allcontainer {
+  margin: auto;
+  width: 80%;
+
+  background: #1b1b1b;
+}
+
+/* nav 1-1 */
+#nav1,
+.navbar {
+  background: #1b1b1b !important;
+}
+
+#nav1 {
+  margin-left: 14rem;
+}
+
+#nav1 .navbar-item {
+  color: white;
+}
+
+.navbar-item {
+  margin: 0 !important;
+  padding: 0.2rem !important;
+}
+
+.hoverA:hover {
+  background: #1b1b1b !important;
+  color: orange !important;
+}
+
+/* nav 1-2 */
+#lastOne {
+  margin-right: 1rem !important;
+}
+
+#lastOne .fab {
+  color: orange !important;
+  cursor: pointer;
+}
+
+#lastOne .fab:hover {
+  color: rgb(243, 201, 124) !important;
+  transform: scale(1.1);
+}
+
+/* Nav 2 */
+#secondNav {
+  margin-left: 2rem;
+  margin-right: 1rem;
+}
+#HolaAnime {
+  color: orange;
+}
+
+.modifyInput {
+  position: relative;
+  height: 2rem !important;
+  width: 20rem !important;
+  background: black !important;
+  border: 1px solid rgb(170, 170, 170) !important;
+  border-radius: 0 !important;
+  color: orange !important;
+}
+
+#endNav {
+  position: relative;
+}
+#endNav:after {
+  content: '';
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  color: orange;
+  top: 13px;
+  right: 10px;
+  position: absolute;
+  cursor: pointer;
+
+  transition: all 1s;
+}
+
+#endNav::after:hover {
+  color: white;
+}
+.burger {
+  color: white !important;
+}
+
+/* Main principal */
+#mainPrincipal {
+  display: flex;
+  margin: 2rem auto;
+  padding: 0;
+  width: 95%;
+}
+#section1 {
+  width: 70%;
+  margin-right: 1rem;
+}
+
+/********** Section 1 *************/
+/* Header kaido */
+.LesAnimes {
+  border: 1px solid white;
+}
+.sec-header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 3rem;
+  background: rgb(255, 166, 0);
+}
+.sec-header2 {
+  display: flex;
+  width: 100%;
+  height: 3rem;
+  background: rgb(255, 166, 0);
+}
+.part1World {
+  display: flex;
+  color: black;
+}
+
+.menuOne a,
+.menuOne span {
+  font-weight: bolder;
+  color: black !important;
+  font-size: 0.9rem;
+  margin: auto 0.2rem;
+  margin-right: 0;
+}
+#recentRe {
+  color: white !important;
+}
+
+.menuOne a:hover {
+  color: white !important;
+}
+.menuOne {
+  display: flex;
+}
+.WorldImage {
+  height: 70px;
+  width: 60px;
+  transform: translateY(-22px);
+}
+
+.numbers {
+  margin: auto 1rem;
+}
+
+.numbers a {
+  padding: 0.1rem 0.3rem;
+}
+.numbers a:hover {
+  background: rgb(0, 150, 0);
+}
+
+/* Recent animes */
+.RecentAnimes {
+  margin-top: 2rem;
+  padding: 0 1rem;
+  padding-bottom: 1rem;
+}
+
+/* Collumens anime */
+.column {
+  text-align: center;
+}
+
+.column img {
+  height: 30vh;
+  cursor: pointer;
+
+  transition: transform 0.5s ease;
+}
+
+.column img:hover {
+  filter: blur(1px);
+  filter: brightness(150%);
+}
+
+.column h1 {
+  color: #ffc119;
+  cursor: pointer;
+  font-weight: bolder;
+  margin-bottom: 1rem;
+}
+
+.column h1:hover {
+  color: white;
+}
+
+.column h3 {
+  font-weight: 400;
+}
+
+/*  popular */
+/* Header Popular */
+.gnrlborder {
+  margin-top: 2rem;
+  border: 1px solid white;
+}
+
+#killerQueen {
+  width: 70px;
+}
+
+/* Top animes */
+
+.animeTop {
+  display: flex;
+  margin: 2rem 0;
+}
+
+figure img {
+  width: 120px !important;
+  height: 100px !important;
+}
+
+.brdLeft {
+  border-left: 1px solid rgb(153, 153, 153);
+}
+
+/* 
+RECENTLY ADDED SERIES
+ */
+
+/* Header recently */
+
+#popularA,
+#recentlyText {
+  color: black !important;
+}
+
+#bolbo {
+  width: 100px;
+
+  transform: translate(-20px, -22px);
+}
+
+#recentlyText {
+  transform: translateX(-20px);
+}
+
+/************* section 2 ************/
+#section2 {
+  width: 30%;
+}
+#section2 .dayAnimes {
+  border: 1px solid white;
+}
+
+.dayAnimes img {
+  height: 70px;
+  width: 70px;
+  transform: translateY(-22px);
+}
+
+#kujo {
+  margin-right: 1rem;
+}
+.listaAnimesDaily {
+  margin-top: 1rem;
+  margin-left: 1rem;
+  padding-bottom: 1rem;
+}
+.anime {
+  margin-bottom: 0.5rem;
+}
+.anime h3 {
+  font-size: 0.9rem;
+  color: #ffc119;
+  cursor: pointer;
+}
+
+.anime h3:hover {
+  color: white;
+
+  filter: brightness(150%);
+}
+
+.anime h4 {
+  margin-left: 0.5rem;
+  font-size: 0.7rem;
+}
+/* Ads */
+
+.centerH1 {
+  justify-self: center;
+
+  height: 100%;
+  padding-top: 0.75rem;
+  font-weight: bolder;
+  margin-left: 0.6rem;
+  cursor: pointer;
+}
+
+.centerH1:hover {
+  color: white !important;
+}
+
+/* ongoing series */
+.hg-box {
+  height: 60vh;
+  overflow: scroll;
+}
+.brdLeight {
+  border: 1px solid white;
+}
+.clrA a {
+  color: #ffc119 !important;
+}
+
+.clrA a:hover {
+  color: white !important;
+}
+#Listascrool a,
+.genresLista a {
+  color: #ffc119 !important;
+}
+
+#Listascrool a:hover,
+.genresLista a:hover {
+  color: white !important;
+}
+
+/* Generes */
+#kiraPice {
+  transform: translateY(-19px);
+}
+.genresLista {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Season */
+#teamPice {
+  transform: translateY(-43px);
+  width: 80px;
+  height: 100px;
+}
+
+.seasons ul span:first-child {
+  color: rgb(107, 107, 107);
+}
+
+.seasons ul li span {
+  color: #ffc119;
+}
+.seasons ul li a {
+  color: #ffc119 !important;
+}
+
+.seasons ul li a:hover {
+  color: white !important;
+}
+
+/* End Section 2 */
+
+/* footer */
+
+footer {
+  display: flex !important;
+  justify-content: space-between;
+}
+footer ul {
+  display: flex;
+}
+
+footer ul li {
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
+footer .toTop {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+}
+footer .toTop span {
+  display: block;
+  text-align: center;
+  margin-left: 0.2rem;
+  margin-top: 0.2rem;
+}
+
+footer .fa-arrow-up {
+  color: #ffc119;
+  border: 2px solid #ffc119;
+  font-size: 2rem;
+  padding: 0 0.1rem;
+  border-radius: 2rem;
+}
+
+/* Burger menu  */
+.BurgerRes {
+  display: none;
+  background: #1b1b1b;
+  position: fixed;
+  width: 80%;
+  padding-top: 0.5rem;
+  top: 100px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+  overflow: scroll;
+}
+
+.listaGrand li a:hover,
+.burgerRes a:hover {
+  color: #ffc119 !important;
+}
+.burgerRes {
+  border-bottom: 1px solid gray;
+  padding: 1rem 0;
+}
+
+.listaGrand {
+  display: flex;
+}
+#liImpr {
+  margin-left: 2rem !important;
+}
+
+.listaGrand ul li {
+  margin-bottom: 0.6rem;
+}
